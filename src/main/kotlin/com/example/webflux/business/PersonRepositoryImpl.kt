@@ -7,7 +7,6 @@ import reactor.core.publisher.Mono
 
 @Service
 class PersonRepositoryImpl : PersonRepository {
-
     private var person1 = Person(1, "carlos", "bolanos")
     private var person2 = Person(2, "raul", "bolanos")
     private var person3 = Person(3, "esperanza", "rodriguez")
